@@ -8,14 +8,14 @@ dependencies:
 #  - LiteX-Hub::moore
 #  - LiteX-Hub::odin_ii
 #  - LiteX-Hub::slang
-#  - LiteX-Hub::surelog
+#  - LiteX-Hub/label/ci-use-python-3.8-489021779::surelog
 #  - LiteX-Hub::sv-parser
 #  - LiteX-Hub::tree-sitter-verilog
 #  - LiteX-Hub::uhdm-integration-verilator
 #  - LiteX-Hub::uhdm-integration-yosys
 #  - LiteX-Hub::verible
 #  - LiteX-Hub::verilator
-#  - LiteX-Hub::yosys
+#  - LiteX-Hub/label/ci-use-python-3.8-489021779::yosys
 #  - LiteX-Hub::antmicro-yosys
 #  - LiteX-Hub::zachjs-sv2v
   - ccache
