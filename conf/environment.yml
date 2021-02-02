@@ -11,8 +11,8 @@ dependencies:
 #  - LiteX-Hub::surelog
 #  - LiteX-Hub::sv-parser
 #  - LiteX-Hub::tree-sitter-verilog
-#  - LiteX-Hub::uhdm-integration-verilator
-#  - LiteX-Hub::uhdm-integration-yosys
+#  - antmicro/label/ci-pcza-test-uhdm-integr-521939678::uhdm-integration-verilator
+#  - antmicro/label/ci-pcza-test-uhdm-integr-521939678::uhdm-integration-yosys
 #  - LiteX-Hub::verible
 #  - LiteX-Hub::verilator
 #  - LiteX-Hub::yosys
