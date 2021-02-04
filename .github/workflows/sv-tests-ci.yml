@@ -77,6 +77,7 @@ jobs:
   Summary:
     name: Summary
     runs-on: ubuntu-18.04
+    needs: Run
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
