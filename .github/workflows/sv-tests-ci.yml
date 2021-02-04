@@ -35,13 +35,13 @@ jobs:
       matrix:
         env:
           #- { JOB_NAME: iverilog, MAKEFLAGS: -j2 }
-          - { JOB_NAME: moore, MAKEFLAGS: -j2 }
+          #- { JOB_NAME: moore, MAKEFLAGS: -j2 }
           #- { JOB_NAME: odin_ii, MAKEFLAGS: -j2 }
           - { JOB_NAME: slang, MAKEFLAGS: -j2 }
           #- { JOB_NAME: sv-parser, MAKEFLAGS: -j2 }
           #- { JOB_NAME: surelog, MAKEFLAGS: -j2 }
           - { JOB_NAME: tree-sitter-verilog, MAKEFLAGS: -j2 }
-          - { JOB_NAME: yosys, MAKEFLAGS: -j2 }
+          #- { JOB_NAME: yosys, MAKEFLAGS: -j2 }
           #- { JOB_NAME: antmicro-yosys-complete, MAKEFLAGS: -j2 }
           #- { JOB_NAME: verible, MAKEFLAGS: -j2 }
           #- { JOB_NAME: verilator, MAKEFLAGS: -j2 }
