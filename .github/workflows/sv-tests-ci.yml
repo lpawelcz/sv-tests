@@ -71,5 +71,5 @@ jobs:
         with:
           name: changes_summary_${{ matrix.env.JOB_NAME }}
           path: |
-            ./out/report/changes_summary.json
-            ./out/report/report.csv
+            ./out/report/${{ matrix.env.JOB_NAME }}_changes_summary.json
+            ./out/report/${{ matrix.env.JOB_NAME }}_report.csv
