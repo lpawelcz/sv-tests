@@ -69,5 +69,7 @@ jobs:
           ./.github/workflows/analyze.sh
       - uses: actions/upload-artifact@v2
         with:
-          name: changes_summary_${{ matrix.env.JOB_NAME }}.json
-          path: ./out/report/changes_summary.json
+          name: changes_summary_${{ matrix.env.JOB_NAME }}
+          path: |
+            ./out/report/changes_summary.json
+            ./out/report/report.csv
