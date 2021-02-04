@@ -73,3 +73,16 @@ jobs:
           path: |
             ./out/report/${{ matrix.env.JOB_NAME }}_changes_summary.json
             ./out/report/${{ matrix.env.JOB_NAME }}_report.csv
+
+  Summary:
+    name: Summary
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - uses: actions/download-artifact@v2
+      - name: Display structure of downloaded files
+        run: ls -R
