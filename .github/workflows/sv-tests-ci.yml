@@ -105,7 +105,6 @@ jobs:
   Comment:
     name: Comment
     runs-on: ubuntu-18.04
-    needs: Summary
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
